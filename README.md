@@ -1,10 +1,11 @@
 # stock-bot
-#Prerequsite to run the Stock bot application
+# Prerequsite to run the Stock bot application
 Java 1.8 and maven 4.0.0
-#Application set up
+# Application set up
 clone the repo to local machine
-mention the absolute path of stock-data.json in StockBotApplication file and save
-run mvn clean install
+Update the absolute path of stock-data.json in StockBotApplication file which the <cloned-folder-location>/stock-data.json and save
+run below command to create the jar file
+mvn clean install
 once it ran it produces jar file in target folder of cloned directory
-#execute jar using below command
+# execute jar using below command
  java -jar stockbot-1.0.0.jar
